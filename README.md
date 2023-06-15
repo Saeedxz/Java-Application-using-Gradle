@@ -1,9 +1,11 @@
-#Getting familiar with gradle 
+# Getting familiar with gradle 
 
--gradle init
+steps:
 
--./gradlew run
+- gradle init
 
--./gradlew build
+- ./gradlew run
 
--./gradlew build --scan
+- ./gradlew build
+
+- ./gradlew build --scan
